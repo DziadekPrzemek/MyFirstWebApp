@@ -1,0 +1,8 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="ThymeleafUrlExpressions" injector-id="xml">
+      <display-name>a/@text</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("text")).withNamespace(string().matches("http//www.thymeleaf.org")).withParent(xmlTag().withLocalName(string().equalTo("a")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+  </component>
+</application>

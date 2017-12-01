@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-
     <head th:fragment="common-header">
 
-        <title>Dziadeks First App</title>
+        <title>Dziadek First Site</title>
 
         <!-- Bootstrap core CSS -->
         <link th:href="@{/webjars/bootstrap/3.3.6/css/bootstrap.min.css}"
@@ -14,8 +13,9 @@
 
 
 </head>
-<dif th:fragment="before-body-scipts">
-    <script th:href="@{/webjars/jquery/2.1.4/jquery.min.js}"> </script>
-    <script th:href="@{/webjars/bootstrap/3.3.6/js/bootstrap.min.js}"></script>
-</dif>
+<div th:fragment="before-body-scipts">
+    <script th:src="@{/webjars/jquery/2.1.4/jquery.min.js}"> </script>
+    <script th:src="@{/webjars/bootstrap/3.3.6/js/bootstrap.min.js}"></script>
+    <script th:src="@{/js/dziadekprzemek.js}"></script>
+</div>
 </html>
