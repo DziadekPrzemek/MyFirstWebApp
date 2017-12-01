@@ -1,8 +1,33 @@
 body{
     padding-top: 60px;
+    
+    background: #0855078;
+    background: -webkit-linear-gradient(to left, #085078, #85D8CE);
+    background: linear-gradient(to left, #085078, #85D8CE);
 }
 
 .starter-template{
     padding: 40px 15px;
     text-align: center;
+}
+.marketing .span4{
+    text-align: center;
+}
+.marketing h2{
+    font-weight: normal;
+
+}
+.marketing .span4 p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.member-title{
+    color: #f0f8ff;
+}
+#footer{
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
 }
