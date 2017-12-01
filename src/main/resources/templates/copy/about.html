@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="common/header :: common-header"/>
+
+<body>
+
+<div th:replace="common/navbar :: common-navbar" />
+
+<div class="container">
+    <div class="row">
+        <div class="col-md12">
+            <div class="jumbotron">
+                <h1 class="text-center" th:text="#{copy.h1.text}"></h1>
+                <p class="text-center" th:text="#{copy.p.lead}"></p>
+            </div>
+        </div>
+    </div>
+
+<div class="container team">
+    <div class="row">
+        <div class="col-6 span 4">
+        <a href="https://www.linkedin.com/in/przemysław-dziadek-81548855">
+            <img class="center-block"
+                 src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAIAAgDGAAAAAQAAAAAAAAwXAAAAJDhlYTg1NDc1LTU3MDktNDExYi1iMTRkLTQwYzM0ZThhMTZhZQ.jpg"
+                 alt="Przemek Dziadek" width="140" height="140" />
+        </a>
+        <h2> Przemek Dziadek </h2>
+
+        <div class="col-6 span4 collapse-group">
+            <p><a class="btn btn-primary btn-collapse" href="#" type="button" data-toggle="collapse" th:text="#{copy.viewdetails.button}"></a> </p>
+            <p class="collapse text-justify" th:text="#{copy.project.lead.intro}"></p>
+
+        </div>
+
+
+
+    </div>
+</div>
+
+    <footer id="footer">
+    <p>&copy; 2017 dziadekprzemek.pl &middot; <a href="#" style="color:#FF0000;">Privacy</a> &middot; <a href="#" style="color:#FF0000;">Terms</a> </p>
+</footer>
+
+</div>
+</div>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<head th:replace="common/header :: before-body-scripts"/>
+</body>
+</html>
